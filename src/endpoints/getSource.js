@@ -1,4 +1,4 @@
-function getSource({ url, proxy }) {
+function getSource({ url, proxy, userAgent }) {
   return new Promise(async (resolve, reject) => {
     if (!url) return reject("Missing url parameter");
     const context = await global.browser

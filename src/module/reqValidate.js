@@ -21,6 +21,9 @@ const schema = {
             },
             "additionalProperties": false
         },
+        "userAgent": {
+            "type": "string"
+        },
         "url": {
             "type": "string",
             "format": "uri",
